@@ -88,7 +88,8 @@ header .navbar .navbar-menu {
 }
 
 .navbar .logo {
-    font-family: cursive;
+    font-family: Georgia, serif;
+    font-size: 20px;
 }
 
 header .navbar .nav-icons {
