@@ -63,6 +63,10 @@ header {
     z-index: 100;
     background: var(--dark-color);
 }
+.title{
+    font-size: 40px;
+    
+}
 
 header .navbar {
     display: flex;
@@ -83,7 +87,7 @@ header .navbar .navbar-menu {
     gap: 10px;
 }
 
-.navbar a {
+.navbar .logo {
     font-family: cursive;
 }
 
