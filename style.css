@@ -105,16 +105,17 @@ header .navbar .nav-icons i {
 }
 
 
+
 @media screen and (max-width:900px) {
     #menu-icon {
         display: block;
     }
 
-    body.show-mobile-menu {
+    .ul_class.show-mobile-menu {
         overflow: hidden;
     }
 
-    body.show-mobile-menu header::before {
+   .ul_class.show-mobile-menu header::before {
         content: "";
         content: '';
         position: fixed;
@@ -140,9 +141,9 @@ header .navbar .nav-icons i {
         transition: all ease .5s;
     }
 
-    body.show-mobile-menu .navbar-menu {
-        right: 0;
-    }
+.ul_class.show-mobile-menu .navbar-menu {
+    right: 0;
+}
 
     .menu-close-button {
         position: absolute;

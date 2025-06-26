@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Honey</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -15,7 +16,7 @@
     <header>
         <nav class="navbar">
             <a href="" class="logo"><i class="fa-solid fa-house"></i>Honey</a>
-
+            <div class="ul_class">
             <ul class="navbar-menu">
                 <li class="nav-list"><a class="nav-link" href="#home" class="active">Home</a></li>
                 <li class="nav-list"><a class="nav-link" href="#about">About Us</a></li>
@@ -24,6 +25,7 @@
                 <li class="nav-list"><a class="nav-link" href="#contact">Contact Us</a></li>
                 <button class="menu-close-button" id="menu-icon"><i class="fa-solid fa-xmark"></i></button>
             </ul>
+            </div>
 
             <div class="nav-icons">
                 <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
@@ -54,6 +56,26 @@
     </main>
 
     <script src="script.js"></script>
+
+
+
 </body>
 
 </html>
+
+
+
+
+<script>
+    $(document).ready(function () {
+        // Open Menu
+        $('.menu-open-button').click(function () {
+            $('.ul_class').addClass('show-mobile-menu');
+        });
+
+        // Close Menu
+        $('.menu-close-button').click(function () {
+            $('.ul_class').removeClass('show-mobile-menu');
+        });
+    });
+</script>
