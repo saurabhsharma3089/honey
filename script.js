@@ -6,7 +6,6 @@ menuOpenButton.addEventListener('click', () => {
     document.body.classList.add("show-mobile-menu");
 });
 
-menuCloseButton.addEventListener('click', () =>{
+menuCloseButton.addEventListener('click', () => {
     document.body.classList.remove("show-mobile-menu");
 });
-    
