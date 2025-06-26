@@ -111,11 +111,11 @@ header .navbar .nav-icons i {
         display: block;
     }
 
-    .ul_class.show-mobile-menu {
+    body.show-mobile-menu {
         overflow: hidden;
     }
 
-   .ul_class.show-mobile-menu header::before {
+    body.show-mobile-menu header::before {
         content: "";
         content: '';
         position: fixed;
@@ -141,9 +141,9 @@ header .navbar .nav-icons i {
         transition: all ease .5s;
     }
 
-.ul_class.show-mobile-menu .navbar-menu {
-    right: 0;
-}
+    body.show-mobile-menu .navbar-menu {
+        right: 0;
+    }
 
     .menu-close-button {
         position: absolute;
