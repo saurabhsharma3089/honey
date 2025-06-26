@@ -128,7 +128,7 @@ header .navbar .nav-icons i {
 
     header .navbar .navbar-menu {
         position: fixed;
-        width: 300px;
+        width: 250px;
         height: 80vh;
         background: var(--main-color);
         color: var(--white-color);
@@ -139,6 +139,7 @@ header .navbar .nav-icons i {
         justify-content: center;
         align-items: center;
         transition: all ease .5s;
+        gap: 50px;
     }
 
     body.show-mobile-menu .navbar-menu {
