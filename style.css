@@ -248,3 +248,38 @@ header .navbar .nav-icons i {
 }
 
 /* ------------------banner-section-end------------------ */
+
+/* ------------------about-section------------------ */
+.about-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.about-section .about-list{
+    width: 340px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--light-dark-color);
+    border-radius: 20px;
+    
+}
+.about-section .about-list i{
+    font-size: var(l--font-size-l);
+    color: var(--main-color);
+    padding-bottom: 10px;
+}
+.about-section .about-list h5 p{
+    padding-bottom: 10px;
+}
+
+.about-section .about-list h5{
+    font-size: 18px;
+}
+
+.about-section .about-list p{
+    font-size: 16px;
+}
