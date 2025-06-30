@@ -17,14 +17,14 @@
         <nav class="navbar">
             <a href="" class="logo"><i class="fa-solid fa-house"></i>Honey</a>
             <div class="ul_class">
-            <ul class="navbar-menu">
-                <li class="nav-list"><a class="nav-link" href="#home" class="active">Home</a></li>
-                <li class="nav-list"><a class="nav-link" href="#about">About Us</a></li>
-                <li class="nav-list"><a class="nav-link" href="#shop"> Our Shop</a></li>
-                <li class="nav-list"><a class="nav-link" href="#review">Our Customer</a></li>
-                <li class="nav-list"><a class="nav-link" href="#contact">Contact Us</a></li>
-                <button class="menu-close-button" id="menu-icon"><i class="fa-solid fa-xmark"></i></button>
-            </ul>
+                <ul class="navbar-menu">
+                    <li class="nav-list"><a class="nav-link" href="#home" class="active">Home</a></li>
+                    <li class="nav-list"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-list"><a class="nav-link" href="#shop"> Our Shop</a></li>
+                    <li class="nav-list"><a class="nav-link" href="#review">Our Customer</a></li>
+                    <li class="nav-list"><a class="nav-link" href="#contact">Contact Us</a></li>
+                    <button class="menu-close-button" id="menu-icon"><i class="fa-solid fa-xmark"></i></button>
+                </ul>
             </div>
 
             <div class="nav-icons">
@@ -56,26 +56,44 @@
         <!-- =====================banner-section-end============================== -->
 
         <!-- =====================about-section-start============================== -->
-         <section class="about-section container" >
+        <section class="about-section container">
             <div class="about-list">
                 <i class="fa-solid fa-clock"></i>
                 <h5 class="about-text">11:00am - 8:00pm</h5>
                 <p>Working Hours</p>
             </div>
 
-              <div class="about-list">
+            <div class="about-list">
                 <i class="fa-solid fa-phone"></i>
                 <h5 class="about-text">(555) 111-4442</h5>
                 <p>Call us Now</p>
             </div>
 
-              <div class="about-list">
+            <div class="about-list">
                 <i class="fa-solid fa-location-dot"></i>
                 <h5 class="about-text">Honey Springs 555</h5>
                 <p>Working Hours</p>
             </div>
-         </section>
+        </section>
+        <!-- =====================about-section-end============================== -->
 
+        <!-- =====================shop-section-start============================== -->
+        <section class="shop-section container">
+            <div class="shop-image">
+                <img src="images/about.png" alt="">
+            </div>
+            <div class="shop-content">
+                <h2 class="title-section">
+                    living well Begins <br> with eating well
+                </h2>
+                <p>Over its history as a food, the main uses of honey are in cooking, baking, desserts, as a spread on
+                    bread, as an addition to various beverages such as tea, and as a sweetener in some commercial
+                    beverages.</p>
+                <p>Due to its energy density, honey is an important food for virtually all hunter-gatherer cultures in
+                    warm climates, with the Hadza people ranking honey as their favorite food.
+                </p>
+            </div>
+        </section>
     </main>
 
 
@@ -92,11 +110,11 @@
 
 
 <script>
-    $(document).ready(function () {   
+    $(document).ready(function () {
         $('.menu-open-button').click(function () {
             $('body').addClass('show-mobile-menu');
         });
-   
+
         $('.menu-close-button').click(function () {
             $('body').removeClass('show-mobile-menu');
         });

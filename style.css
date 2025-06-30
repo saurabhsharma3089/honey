@@ -283,3 +283,33 @@ header .navbar .nav-icons i {
 .about-section .about-list p{
     font-size: 16px;
 }
+
+/* ------------------about-section-end------------------ */
+
+/* ------------------Shop-style------------------ */
+
+.shop-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.shop-section .shop-image img{
+    width: 500px;
+    height: 500px;
+}
+
+.shop-section .shop-content{
+    width: 500px;
+}
+
+.shop-section .shop-content p{
+    margin-top: 15px;
+    text-align: justify;
+}
+
+
