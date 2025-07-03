@@ -126,130 +126,7 @@ header .navbar .nav-icons i {
 
 
 
-/* ------------------media-query------------------ */
-@media screen and (max-width:900px) {
-    #menu-icon {
-        display: block;
-    }
 
-    body.show-mobile-menu {
-        overflow: hidden;
-    }
-
-    body.show-mobile-menu header::before {
-        content: "";
-        content: '';
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(255, 255, 255, 0.5);
-    }
-
-    header .navbar .navbar-menu {
-        position: fixed;
-        width: 250px;
-        height: 80vh;
-        background: var(--main-color);
-        color: var(--white-color);
-        top: 90px;
-        right: -350px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        transition: all ease .5s;
-        gap: 50px;
-    }
-
-    body.show-mobile-menu .navbar-menu {
-        right: 0;
-    }
-
-    .menu-close-button {
-        position: absolute;
-        top: 30px;
-        left: 30px;
-        font-size: 25px;
-    }
-
-    header .navbar {
-        padding: 20px 10px;
-    }
-
-    .banner-data {
-        padding-left: 10px;
-    }
-
-    .title {
-        font-size: 35px;
-    }
-
-    header .navbar .nav-icons {
-        width: 85px;
-        height: 40px;
-    }
-
-    /* banner responsive style start  */
-    .banner-container {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
-    }
-
-    .banner-container .banner-data .title {
-        margin-top: 80px;
-    }
-
-    .banner-container .banner-image {
-        width: 80%;
-        height: 80%;
-    }
-
-    /* About responsive style end  */
-
-    /* Shop responsive style start  */
-    .shop-section {
-        margin-top: 100px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column-reverse;
-        column-gap: 50px;
-        row-gap: 50px;
-
-    }
-
-    .shop-section .shop-image img {
-        width: 200px;
-    }
-    .shop-section .shop-content{
-        width: auto;
-    }
-
-    /* Shop responsive style end  */
-
-    /* Customer responsive style start  */
-    .customer-section .customer-list .customer-item {
-        width: 280px;
-        height: auto;
-        padding: 30px;
-        background: var(--light-dark-color);
-    }
-
-    /* Footer style responsive */
-    .footer-section .footer-img img {
-        width: 135px;
-        height: 45px;
-    }
-
-    .footer-section .footer-img {
-        gap: 20px;
-    }
-
-
-}
 
 /* -------------------banner-style------------------- */
 
@@ -545,3 +422,129 @@ header .navbar .nav-icons i {
 }
 
 /* ------------------footer-style-end------------------  */
+
+
+/* ------------------media-query------------------ */
+@media screen and (max-width:900px) {
+    #menu-icon {
+        display: block;
+    }
+
+    body.show-mobile-menu {
+        overflow: hidden;
+    }
+
+    body.show-mobile-menu header::before {
+        content: "";
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    header .navbar .navbar-menu {
+        position: fixed;
+        width: 250px;
+        height: 80vh;
+        background: var(--main-color);
+        color: var(--white-color);
+        top: 90px;
+        right: -350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all ease .5s;
+        gap: 50px;
+    }
+
+    body.show-mobile-menu .navbar-menu {
+        right: 0;
+    }
+
+    .menu-close-button {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-size: 25px;
+    }
+
+    header .navbar {
+        padding: 20px 10px;
+    }
+
+    .banner-data {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    header .navbar .nav-icons {
+        width: 85px;
+        height: 40px;
+    }
+
+    /* banner responsive style start  */
+    .banner-container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .banner-container .banner-data .title {
+        margin-top: 80px;
+    }
+
+    .banner-container .banner-image {
+        width: 80%;
+        height: 80%;
+    }
+
+    /* About responsive style end  */
+
+    /* Shop responsive style start  */
+    .shop-section {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        column-gap: 50px;
+        row-gap: 50px;
+
+    }
+
+    .shop-section .shop-image img {
+        width: 200px;
+    }
+    .shop-section .shop-content{
+        width: auto;
+    }
+
+    /* Shop responsive style end  */
+
+    /* Customer responsive style start  */
+    .customer-section .customer-list .customer-item {
+        width: 280px;
+        height: auto;
+        padding: 30px;
+        background: var(--light-dark-color);
+    }
+
+    /* Footer style responsive */
+    .footer-section .footer-img img {
+        width: 135px;
+        height: 45px;
+    }
+
+    .footer-section .footer-img {
+        gap: 20px;
+    }
+
+
+}
